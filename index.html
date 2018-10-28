@@ -1,0 +1,49 @@
+<html>
+<body>
+
+<h1>linear Search</h1>
+
+ 
+<button onclick="myFunction()">Click me</button>
+
+
+<p id = "msg"> </p><br>
+<p id = "msg2"> </p><br>
+<p id = "msg3"> </p><br>
+<script>
+function myFunction() {
+		var size = parseInt(prompt("Enter size"));	
+		var a = new Array(size);
+
+		for(var i = 0; i < size; i++)
+			{
+				a[i] = prompt("Enter "+ (i+1) + " element");
+			}
+		
+		var item  = parseInt(prompt("Enter item "));
+		alert("Now the Linear search is performed ");
+		
+		for(i = 0; i<size; i++)
+			{
+				if(a[i] == item)		
+					{
+						document.getElementById("msg").innerHTML = "item found at  "+(i+1) +" position";	
+						break;
+					}			
+
+			}
+
+		document.getElementById("msg2").innerHTML = "Linear search is now complete  ";	
+		if(i==(size))
+			{
+						document.getElementById("msg3").innerHTML = "no such item present  ";		
+			}
+
+	
+		
+		
+}
+</script>
+
+</body>
+</html>
