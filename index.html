@@ -1,49 +1,23 @@
-<html>
-<body>
+---
+layout: default
+---
 
-<h1>linear Search</h1>
+<div class="home">
 
- 
-<button onclick="myFunction()">Click me</button>
+  <h1 class="page-heading">Posts</h1>
 
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-<p id = "msg"> </p><br>
-<p id = "msg2"> </p><br>
-<p id = "msg3"> </p><br>
-<script>
-function myFunction() {
-		var size = parseInt(prompt("Enter size"));	
-		var a = new Array(size);
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-		for(var i = 0; i < size; i++)
-			{
-				a[i] = prompt("Enter "+ (i+1) + " element");
-			}
-		
-		var item  = parseInt(prompt("Enter item "));
-		alert("Now the Linear search is performed ");
-		
-		for(i = 0; i<size; i++)
-			{
-				if(a[i] == item)		
-					{
-						document.getElementById("msg").innerHTML = "item found at  "+(i+1) +" position";	
-						break;
-					}			
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-			}
-
-		document.getElementById("msg2").innerHTML = "Linear search is now complete  ";	
-		if(i==(size))
-			{
-						document.getElementById("msg3").innerHTML = "no such item present  ";		
-			}
-
-	
-		
-		
-}
-</script>
-
-</body>
-</html>
+</div>
