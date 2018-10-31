@@ -2,3 +2,14 @@
 	font-family: 'Raleway', sans-serif;
 	font-size: 30px;
 }
+.landing{
+	background:url("../res/images/landing.jpeg") no-repeat center center fixed;	
+	height:91.6vh;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover; 
+}
+/*.big-banner{
+	background-image: url("../res/images/landing.jpeg");
+}*/
