@@ -14,3 +14,20 @@
 	 background:url("../res/images/bg.jpeg");
      background-size:cover;
 }
+/* Below code is to make landing text change its size when we hover over it*/
+svg:hover .landing_text{
+	font-size: 180%;
+}
+
+/*below code makes the transition period of size change to 1s and google fonts used here */
+.landing_text{
+	transition: font-size 1s;
+	font-family: 'Merienda One', cursive;
+}
+
+/* below code used to position text to center ussing- flex-box css*/
+/* further positioning was done by adjusting height width and x, y coordinates of svg element*/
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
