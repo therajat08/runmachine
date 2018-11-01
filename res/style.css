@@ -10,6 +10,7 @@
     -o-background-size:cover;
     -moz-background-size:cover; 
 }
-/*.big-banner{
-	background-image: url("../res/images/landing.jpeg");
-}*/
+#blue_bg{
+	 background:url("../res/images/bg.jpeg");
+     background-size:cover;
+}
