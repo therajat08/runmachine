@@ -15,6 +15,7 @@
      background-size:cover;
 }
 /* Below code is to make landing text change its size when we hover over it*/
+/*learning to work with svg was learnt from : https://www.youtube.com/watch?v=IM8eTD01UE8 */
 svg:hover .landing_text{
 	font-size: 180%;
 }
