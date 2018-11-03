@@ -32,3 +32,26 @@ svg:hover .landing_text{
   display: flex;
   justify-content: center;
 }
+/*css fro quotes below*/
+#quotes{
+	background-color: #00ace6;
+}
+.leg-quote{
+	font-family: 'Caveat', cursive;
+	font-size: 30px;
+	text-align: justify;
+}
+.legends{
+	font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+	text-align: right;
+
+}
+/*hr tag property taken from https://css-tricks.com/examples/hrs/*/
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+	clear:both;
+}
