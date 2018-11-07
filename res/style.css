@@ -33,12 +33,17 @@ svg:hover .landing_text{
   justify-content: center;
 }
 /*css fro quotes below*/
+#legend-heading{
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
+	color:#ff8533;
+}
 #quotes{
 	background-color: #00ace6;
 }
 .leg-quote{
 	font-family: 'Merienda One', cursive;
-	font-size: 30px;
+	font-size: 27px;
 	text-align: justify;
 }
 .legends{
