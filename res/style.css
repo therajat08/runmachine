@@ -60,3 +60,10 @@ hr{
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 	clear:both;
 }
+
+/*css for path of pages*/
+#path{
+    background-color: #00ace6;
+  
+
+}
