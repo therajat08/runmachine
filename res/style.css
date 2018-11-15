@@ -9,6 +9,10 @@
     -webkit-background-size:cover;
     -o-background-size:cover;
     -moz-background-size:cover; 
+	transition: opacity 1s;
+}
+.landing:hover{
+	opacity:0.67;
 }
 #blue_bg{
 	 background:url("../res/images/bg.jpeg");
@@ -17,13 +21,17 @@
 /* Below code is to make landing text change its size when we hover over it*/
 /*learning to work with svg was learnt from : https://www.youtube.com/watch?v=IM8eTD01UE8 */
 svg:hover .landing_text{
-	font-size: 180%;
+	font-size: 210%;
+	text-shadow: white 0px 0px 10px;
+	font-weight: 1000;
+	
 }
 
 /*below code makes the transition period of size change to 1s and google fonts used here */
 .landing_text{
-	transition: font-size 1s;
-	font-family: 'Merienda One', cursive;
+	transition: font-size 1s, text-shadow 1s, font-weight 1s;
+	/*font-family: 'Merienda One', cursive;*/
+	font-family: 'Raleway', sans-serif;
 }
 
 /* below code used to position text to center ussing- flex-box css*/
