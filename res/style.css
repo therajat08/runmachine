@@ -95,4 +95,11 @@ hr{
       /*margin-top: -50px;
       margin-left: -100px;*/
  }
-
+#odi{
+	
+	background:url("../res/images/1d.jpeg");
+	background-size: cover;	
+}
+.format{
+		text-decoration: none !important;	
+}
