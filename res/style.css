@@ -103,3 +103,18 @@ hr{
 .format{
 		text-decoration: none !important;	
 }
+#pl{
+	
+	background:url("../res/images/pl.jpeg");
+	background-size: cover;	
+}
+#test{
+	
+	background:url("../res/images/test.jpeg");
+	background-size: cover;	
+}
+#t2{
+	
+	background:url("../res/images/t2.jpeg");
+	background-size: cover;	
+}
