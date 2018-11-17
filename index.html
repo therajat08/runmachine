@@ -11,10 +11,14 @@
 </head>
  
 <body id="blue_bg">
-	<!--Loading bar here -->
+	<!--*****************Loading bar here******** -->
 	<div id="load_screen"><div id="loading"><img src="res/images/load.gif"></div></div>
+	<!--****************Floating up button here**********-->
+	<a href="#navbar" class="btn btn-info btn-lg" id="up">
+          <span class="glyphicon glyphicon-hand-up"></span> Up
+    </a>
 	<div class="container">
-		<div class="row"><!--Navigation bar-->
+		<div class="row" id="navbar"><!--Navigation bar-->
 			<div class="col-lg-4 nav" style="background-color:lavender;">Home</div>
             <div class="col-lg-4 nav" style="background-color:lavenderblush;"><a href="records.html">Records</a></div>
 			<div class="col-lg-4 nav" style="background-color:lavender;">Statistics</div>
@@ -62,7 +66,7 @@
 				<p class="legends">-Viv Richards</p>
 			 </div>
 		</div> 
-		<div class="row"><!--Profile-->
+		<div class="row" id="bio"><!--Profile-->
 			<div class="col-lg-12">
 				<h1>Profile</h1>
 				<p>Virat Kohli is an Indian international cricketer who currently captains the India national team. A right-handed top-order batsman, Kohli is regarded as one of the best batsmen in the world.[1] He plays for Royal Challengers Bangalore in the Indian Premier League (IPL), and has been the team's captain since 2013.
@@ -92,6 +96,7 @@ Virat Kohli was born on 5 November 1988 in Delhi into a Punjabi family. His
 			document.body.removeChild(load_screen);
 		});
 </script>
+<script src="res/floater.js" type="text/javascript"></script>
 <!--Scripts end here-->
 </body>
 </html>

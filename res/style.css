@@ -118,3 +118,21 @@ hr{
 	background:url("../res/images/t2.jpeg");
 	background-size: cover;	
 }
+#bio{
+	background-color: #00ace6;
+}
+#up {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: 5; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #4d79ff; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 100%; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
