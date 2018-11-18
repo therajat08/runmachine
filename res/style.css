@@ -136,3 +136,17 @@ hr{
     border-radius: 100%; /* Rounded corners */
     font-size: 18px; /* Increase font size */
 }
+#p1{
+	background:url("../res/images/p1.jpeg")no-repeat center center fixed; 	
+    min-height: 250px;  
+	width:100%;
+    background-size: cover; 
+
+}
+#p2{
+	background:url("../res/images/p2.jpeg")no-repeat center center fixed;	
+    min-height: 250px;  
+	width:100%;
+    background-size: cover; 
+
+}
