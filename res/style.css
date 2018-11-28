@@ -1,6 +1,8 @@
 .nav{
 	font-family: 'Raleway', sans-serif;
 	font-size: 30px;
+	color: Black;
+	font-weight: 500;
 }
 .landing{
 	background:url("../res/images/landing.jpeg") no-repeat center center fixed;	
@@ -72,7 +74,8 @@ hr{
 /*css for path of pages*/
 #path{
     background-color: #00ace6;
-  
+    font-family: 'Raleway', sans-serif;
+	font-size: 30px;
 
 }
 #load_screen{
@@ -149,4 +152,10 @@ hr{
 	width:100%;
     background-size: cover; 
 
+}
+.links{
+	transition: opacity 0.5s;
+}
+.links:hover{
+	opacity: 0.7;
 }
